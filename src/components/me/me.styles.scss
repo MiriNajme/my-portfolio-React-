@@ -1,0 +1,20 @@
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+
+  & p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px;
+    color: #272142;
+  }
+  & h2 {
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #272142;
+  }
+}

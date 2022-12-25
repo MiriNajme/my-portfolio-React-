@@ -1,0 +1,20 @@
+.contact-content {
+  padding: 100px 0px 0px 0px;
+
+  .linkedin {
+    color: #183153;
+  }
+  .fa-at {
+    color: #d83e31;
+  }
+}
+
+@media (max-width: 990px) {
+  .contact-content {
+    padding-top: 30px;
+
+    h1 {
+      font-size: 46px;
+    }
+  }
+}

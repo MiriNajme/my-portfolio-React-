@@ -1,0 +1,22 @@
+.content h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.content h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 70% !important;
+}
+.content-container {
+  padding: 80px 20px 0px 20px;
+}

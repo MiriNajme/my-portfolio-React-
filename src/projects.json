@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "crown clothing",
+      "image": "crwn-clothing.png",
+      "id": 1,
+      "route": "work/crown-clothing"
+    },
+    {
+      "title": "weather",
+      "image": "weather.png",
+      "id": 4,
+      "route": "work/weather"
+    },
+    {
+      "title": "portfolio",
+      "image": "portfolio.png",
+      "id": 3,
+      "route": "work/portfolio"
+    },
+    {
+      "title": "calligraphy",
+      "image": "calligraphy.png",
+      "id": 2,
+      "route": "work/calligraphy"
+    }
+  ]
+}
