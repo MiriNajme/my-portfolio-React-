@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import "./navbar.styles.scss";
 
 
-const NavBar = () =>
+const NavBar = () => (
     <Fragment>
         <div className="navbar navbar-expand-lg fixed-top">
             <div className="container">
@@ -52,6 +52,6 @@ const NavBar = () =>
         </div>
         <Outlet />
     </Fragment>
-    ;
+);
 
 export default NavBar;
