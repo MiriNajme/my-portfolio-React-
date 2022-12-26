@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./routes/homepage/homepage.component";
-import Navigation from "./routes/navigation/navigation.component";
+import NavBar from "./routes/navbar/navbar.component";
 import Projects from "./components/projects/projects.component";
 
 import "./App.css";
@@ -12,7 +12,7 @@ import { Fragment } from "react";
 const App = () => (
   <Fragment>
     <Routes>
-      <Route exact path="/" element={<Navigation />}>
+      <Route exact path="/" element={<NavBar />}>
         <Route index element={<HomePage />} />
         <Route path="projects" element={<Projects />} />
         <Route path="about" element={<About />} />

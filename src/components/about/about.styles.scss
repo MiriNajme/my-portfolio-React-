@@ -1,0 +1,42 @@
+.my-image {
+  text-align: right;
+
+  & img {
+    width: 480px;
+  }
+}
+
+.content h1 {
+  font-size: 50px;
+}
+
+@media (max-width: 990px) {
+  .row {
+    padding: 30px;
+
+    .content {
+      order: 2 !important;
+
+      & h1 {
+        font-size: 34px;
+      }
+
+      & p {
+        text-align: justify;
+        // text-justify: inter-word;
+      }
+
+      & button {
+        margin-top: -15px;
+      }
+    }
+  }
+
+  .my-image {
+    text-align: center;
+
+    & img {
+      width: 645px;
+    }
+  }
+}

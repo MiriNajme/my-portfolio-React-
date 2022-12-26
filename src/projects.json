@@ -4,25 +4,29 @@
       "title": "crown clothing",
       "image": "crwn-clothing.png",
       "id": 1,
-      "route": "work/crown-clothing"
+      "route": "work/crown-clothing",
+      "url": "https://silver-jelly-6417e0.netlify.app/"
     },
     {
       "title": "weather",
       "image": "weather.png",
       "id": 4,
-      "route": "work/weather"
+      "route": "work/weather",
+      "url": "https://sparkly-nasturtium-5b7bfb.netlify.app/"
     },
     {
       "title": "portfolio",
       "image": "portfolio.png",
       "id": 3,
-      "route": "work/portfolio"
+      "route": "work/portfolio",
+      "url": "https://silver-jelly-6417e0.netlify.app/"
     },
     {
       "title": "calligraphy",
       "image": "calligraphy.png",
       "id": 2,
-      "route": "work/calligraphy"
+      "route": "work/calligraphy",
+      "url": ""
     }
   ]
 }

@@ -7,7 +7,7 @@ import "./projects.styles.scss";
 const Projects = () => {
     return (
         <div className="container content-container">
-            <div className="content work-content" >
+            <div className="content work-content text-center" >
                 <h1 className="text-center">Take a look at what I've been working on!</h1>
 
                 <div className="row">

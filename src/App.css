@@ -21,3 +21,19 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
 }
+@media (max-width: 990px) {
+  h1 {
+    font-size: 76px;
+  }
+  .btn-mobile {
+    border-radius: 70px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+  .content-container {
+    padding: 0px;
+    margin-top: 50px;
+    text-align: center;
+  }
+}

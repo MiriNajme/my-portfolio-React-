@@ -1,8 +1,11 @@
 import { Fragment } from "react";
-import { Outlet } from "react-router-dom";
-import { NavigationContainer, NavLink, NavLinks, LogoContainer } from "./navigation.styles";
+import { Outlet, NavLink } from "react-router-dom";
+import { NavigationContainer, NavLinks, LogoContainer } from "./navigation.styles";
 
 const Navigation = () => {
+    let activeStyle = {
+        color: "red",
+    };
     return (
         <Fragment>
             <NavigationContainer>
@@ -10,7 +13,10 @@ const Navigation = () => {
                     Najme Miri
                 </LogoContainer>
                 <NavLinks>
-                    <NavLink to="/">
+                    <NavLink to="/"
+                        style={({ isActive }) =>
+                            isActive ? activeStyle : {}
+                        }>
                         Home
                     </NavLink>
                     <NavLink to="/projects">
