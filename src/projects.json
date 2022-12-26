@@ -19,14 +19,14 @@
       "image": "portfolio.png",
       "id": 3,
       "route": "work/portfolio",
-      "url": "https://silver-jelly-6417e0.netlify.app/"
+      "url": "https://enchanting-twilight-95f316.netlify.app/"
     },
     {
       "title": "calligraphy",
       "image": "calligraphy.png",
       "id": 2,
       "route": "work/calligraphy",
-      "url": "https://enchanting-twilight-95f316.netlify.app/"
+      "url": ""
     }
   ]
 }
