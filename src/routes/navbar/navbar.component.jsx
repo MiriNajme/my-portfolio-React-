@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink, Link } from "react-router-dom";
 import "./navbar.styles.scss";
 
 
@@ -26,24 +26,40 @@ const NavBar = () => (
 
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link
-                                className="nav-link active active-menu"
-                                aria-current="page"
-                                to="/"
-                                title="Homepage"
-                            >Home</Link>
+                            <NavLink to="/"
+                                title="Home page"
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active active-menu' : 'nav-link'
+                                }>
+                                Home
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projects" title="Najme's work"
-                            >Work</Link>
+                            <NavLink to="/projects"
+                                title="Najme's work"
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active active-menu' : 'nav-link'
+                                }>
+                                Work
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about" title="About Najme"
-                            >About</Link>
+                            <NavLink to="/about"
+                                title="About Najme"
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active active-menu' : 'nav-link'
+                                }>
+                                About
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact" title="Contact Najme"
-                            >Contact</Link>
+                            <NavLink to="/contact"
+                                title="Contact Najme"
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active active-menu' : 'nav-link'
+                                }>
+                                Contact
+                            </NavLink>
                         </li>
                     </ul>
 
