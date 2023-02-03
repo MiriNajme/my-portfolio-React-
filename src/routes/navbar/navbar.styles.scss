@@ -1,8 +1,13 @@
 .navbar {
+  --bs-navbar-active-color: #582a6a;
   background-color: var(--secondary-color);
   width: 100vw;
 }
 
 .navbar-brand img {
   width: 150px;
+}
+
+.nav-link.active {
+  text-shadow: 0 0 1px #582a6a;
 }

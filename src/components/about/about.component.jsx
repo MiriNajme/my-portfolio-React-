@@ -1,7 +1,6 @@
 import React from "react";
 import CustomButton, { BUTTON_TYPE_CLASSES } from "../custom-button/custom-button.component";
 import { useNavigate } from "react-router-dom";
-import myPhoto from "../../assets/images/me.png";
 
 import "./about.styles.scss";
 
@@ -23,11 +22,9 @@ const About = () => {
                     <CustomButton buttonType={BUTTON_TYPE_CLASSES.branding} onClick={goToWork} className="shadow btn-mobile">View all projects</CustomButton>
                 </div>
                 <div className="col-lg-6 my-image">
-                    <img
-                        src={myPhoto}
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/me.png`}
                         className="img-fluid rounded-4"
-                        alt="Najme"
-                    />
+                        alt="Najme Miri" />
                 </div>
             </div>
         </div>
