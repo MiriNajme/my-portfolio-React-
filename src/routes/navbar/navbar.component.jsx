@@ -7,7 +7,9 @@ const NavBar = () => (
     <Fragment>
         <div className="navbar navbar-expand-lg fixed-top">
             <div className="container">
-                <Link className="navbar-brand" to="/about">Najme Miri</Link>
+                <Link className="navbar-brand" to="/about">
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/black-logo.png`} alt="Najme Miri" />
+                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
